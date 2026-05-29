@@ -1,4 +1,4 @@
- Student Performance Prediction System
+## Student Performance Prediction System
  Overview
 
 The Student Performance Prediction System is a machine learning-based desktop application developed using Python.
@@ -6,7 +6,7 @@ It predicts student academic performance based on input data and provides meanin
 
 The application is built with a Tkinter GUI and integrates data processing, machine learning, and data visualization into a single system.
 
-Features
+## Features
 Secure user login system
 Student data entry interface
 Machine learning-based performance prediction
@@ -16,7 +16,7 @@ Pie chart visualization
 Dataset management and storage
 User-friendly desktop GUI using Tkinter
 
-Technologies Used
+## Technologies Used
 Python
 Tkinter (GUI Development)
 Pandas (Data Processing)
@@ -24,7 +24,7 @@ NumPy (Numerical Computation)
 Matplotlib (Data Visualization)
 Scikit-learn (Machine Learning)
 
-Project Structure
+## Project Structure
 student_performance_prediction/
 │── main.py
 │── login_page.py
@@ -39,7 +39,7 @@ student_performance_prediction/
 │── students_results.csv
 │── logo.png
 
- Installation & Execution
+## Installation & Execution
 1. Clone the repository
 git clone https://github.com/your-username/student-performance-prediction.git
 cd student-performance-prediction
@@ -48,28 +48,28 @@ pip install -r requirements.txt
 3. Run the application
 python main.py
 
- Modules
+# Modules
 Login Module
 
 Handles authentication before accessing the system.
 
- Data Entry Module
+# Data Entry Module
 
 Allows input of student academic records.
 
- Prediction Module
+# Prediction Module
 
 Uses a trained ML model to predict student performance.
 
- Visualization Module
+# Visualization Module
 
 Displays graphical insights using charts and graphs.
 
- Objective
+## Objective
 
 To build an intelligent system that predicts student academic performance and assists in educational decision-making using machine learning.
 
-Screenshots
+## Screenshots
 
 Add screenshots of:
 1. LOGIN
@@ -82,7 +82,7 @@ Add screenshots of:
 <img width="1914" height="1073" alt="GRAPH" src="https://github.com/user-attachments/assets/77a38446-f0bd-4a83-9134-8e918017a622" />
 
 
- Future Enhancements
+## Future Enhancements
 Integration with database (MySQL / SQLite)
 Improved ML accuracy with advanced models
 Web-based version using Flask/Django
